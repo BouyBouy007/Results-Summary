@@ -1,0 +1,122 @@
+body {
+  font-family: 'Hanken Grotesk';
+  font-size: 18px;
+}
+
+.full-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result-summary-container {
+  display: flex;
+  height: 400px;
+  width: 600px;
+  box-shadow: 15px 15px 50px hsl(241, 81%, 54%, 0.15);
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.your-result-container {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  width: 300px;
+  border-radius: 20px;
+  padding: 20px 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.your-result-title {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.score-out-of-hundred {
+  background-image: linear-gradient( hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  height: 160px;
+  width: 160px;
+  border-radius: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.current-score {
+  color: hsl(0, 0%, 100%);
+  font-size: 60px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.out-of {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 14px;
+}
+
+.evaluation-grade {
+  color: hsl(0, 0%, 100%);
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.evaluation-comparison {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.score-summary-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 20px 20px;
+}
+
+.summary-title {
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.reaction-score-container,
+.memory-score-container,
+.verbal-score-container,
+.visual-score-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 6px;
+  margin-bottom: 30px;
+}
+
+.reaction-score-container {
+  background-color: hsla(0, 100%, 67%, 0.15);
+  color: hsl(0, 100%, 67%);
+}
+
+.memory-score-container {
+  background-color: hsla(39, 100%, 56%, 0.15);
+  color: hsl(39, 100%, 56%);
+}
+
+.verbal-score-container {
+  background-color: hsla(166, 100%, 37%, 0.15);
+  color: hsl(166, 100%, 37%);
+}
+
+.visual-score-container {
+  background-color: hsla(234, 85%, 45%, 0.15);
+  color: hsl(234, 85%, 45%);
+}
+
+.continue-button {
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 30px;
+  height: 60px;
+  cursor: pointer;
+  transition: background-image 0.15s;
+}
+
+.continue-button:active {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
